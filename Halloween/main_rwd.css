@@ -1,0 +1,157 @@
+html {
+	background-image: url("bats.gif");	
+}
+body  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 95%;
+    max-width: 960px;
+	background-color: white;
+	margin: 0 auto; 
+	padding: 0;
+	border: 3px solid black;
+	box-shadow: 0 9px 18px 9px;
+}
+h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+a {
+    font-weight: bold;
+    color: orange;
+}
+a:link, a:visited { 
+    color: black; 
+}
+a:hover, a:focus { 
+    color: green;
+}
+/* Navigation Menu */
+#nav_menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#nav_menu ul li {
+    float: left;
+    width: 20%;
+}
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+#nav_menu ul li a.lastitem {
+    border-right: none;
+}
+#nav_menu a.current {
+    color: orange;
+}
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+    background-color: grey;
+}
+#nav_menu ul ul li {
+    float: none;
+}
+#nav_menu > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* Header */
+header { 
+    background-image: -webkit-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+    background-image: -moz-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+    background-image: -o-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+    background-image: linear-gradient(45deg, white 0%, orange 75%, black 100%);
+    width: 95%;
+    padding: 15px 1.875%;
+    border-bottom: 2px solid black;   
+} 
+header img { 
+	float: left; 
+	padding-right: 15px 1.875%;  
+} 
+header h2 {
+	font-size: 230%;
+}
+header h3 {
+	font-size: 125%;
+}
+
+/* Sidebar */
+aside {
+	float: left; 
+	width: 20%;
+	padding: 20px 2.5%;
+}
+aside ul {
+	line-height: 1.5;
+    width: 14.375%;
+}
+#nav_list ul {
+    list-style: none;
+    width: 14.375%;
+    margin-left: 0em;
+    margin-bottom: 1.5em;
+    float: left;
+}
+#nav_list ul li {
+    margin-bottom: .5em;
+    background-color: orange;
+    border: 2.5px solid black;
+}
+#nav_list ul li a {
+    display: block;
+    padding: .15em 0 .5em .5em;
+    text-decoration: none;
+}
+ 
+/* Section */
+section {
+	width: 72.5%;
+	float: right;
+	padding: 2.5% 5% 2.5% 2.5%;	
+}
+section h1 { 
+	font-size: 140%;
+	margin-bottom: .5em;
+}
+section h1:first-letter { 
+	font-size: 240%;
+}
+section h2 {
+	font-size: 125%;
+	margin: .8em 0 .5em 0;
+}
+section h3 {
+	font-size: 110%;
+	margin: .8em 0 .5em 0;
+}
+section p {
+	margin-bottom: .5em;
+}
+
+/* Footer */
+footer { 
+	clear: both;
+	border-top: 2px solid black;
+	padding: 1.875%;
+    background-image: -webkit-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+    background-image: -moz-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+    background-image: -o-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+    background-image: linear-gradient(45deg, black 0%, orange 25%, white 100%);
+} 
+footer p {
+	font-size: 90%;
+	text-align: center;
+}
+
