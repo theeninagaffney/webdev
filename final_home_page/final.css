@@ -3,7 +3,8 @@ html {
    background-image: repeat;
 }
 body {
-   width: 800px;
+   max-width: 800px;
+   width: 100%;
    margin: 0 auto;
    padding: 0;
    background-color:blanchedalmond;
@@ -21,12 +22,12 @@ h1, h2, h3, p {
    margin: 0;
    padding: 0;
    text-align: center;
-   width: 800px;
+   width: 100%;
 }
 
 #nav_menu ul li {
    float: left;
-   width: 230px;
+   width: 28.75px;
 }
 
 #nav_menu ul li a {

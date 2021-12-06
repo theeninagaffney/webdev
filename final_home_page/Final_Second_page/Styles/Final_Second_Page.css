@@ -72,13 +72,7 @@ html {
     float:left;
     width: 50%;
  }
- .column1 img {
-    align-items: center;
- }
- .column2 img {
-    align-self: center;
- }
-
+  
  /* Rows */
  .row:after {
     content: "";
