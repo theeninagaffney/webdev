@@ -20,24 +20,18 @@ h1, h2, h3, p {
    list-style-type: none;
    margin: 0;
    padding: 0;
-   top: 0;
    text-align: center;
    width: 800px;
 }
 
 #nav_menu ul li {
    float: left;
-   display: block;
    width: 230px;
-   margin-left: 2px;
 }
-#fuckthis{
-   width: -100px;
-}
+
 #nav_menu ul li a {
    text-align: center;
    display: block;
-   padding: 3px;
    text-decoration: none;
    background-color: rgb(245, 57, 82);
    color: white;
@@ -45,6 +39,7 @@ h1, h2, h3, p {
 }
 #nav_menu ul li a.lastitem {
    border-right: none;
+
 }
 #nav_menu ul li a.current {
    color: rgb(118, 149, 250);
