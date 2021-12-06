@@ -3,8 +3,7 @@ html {
    background-image: repeat;
 }
 body {
-   max-width: 800px;
-   width: 100%;
+   width: 800px;
    margin: 0 auto;
    padding: 0;
    background-color:blanchedalmond;
@@ -22,12 +21,12 @@ h1, h2, h3, p {
    margin: 0;
    padding: 0;
    text-align: center;
-   width: 100%;
+   width: 800px;
 }
 
 #nav_menu ul li {
    float: left;
-   width: 28.75px;
+   width: 230px;
 }
 
 #nav_menu ul li a {
@@ -58,13 +57,11 @@ header {
 }
 /* Main */
 main{
-  /* margin: 3em; */
-  margin: 2em;
+  margin: 3em;
  }
 /* Footer */
 footer {
    text-align: center;
    border-top: 5px solid #391316;
 }
-
 
