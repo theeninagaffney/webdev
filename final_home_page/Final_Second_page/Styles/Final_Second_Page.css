@@ -1,0 +1,74 @@
+html {
+    background-image: url("../../Images/frog.gif");
+    background-image: repeat;
+ }
+ body {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    background-color:blanchedalmond;
+    border: 5px solid #392613;
+    font-family: garamond;
+ }
+ h1, h2, h3, p {
+   margin: 0;
+   padding: 0;
+ }
+ /* Navigation Menu */
+ 
+ #nav_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    text-align: center;
+    width: 800px;
+ }
+ 
+ #nav_menu ul li {
+    float: left;
+    display: block;
+    width: 230px;
+    margin-left: 2px;
+ }
+ #fuckthis{
+    width: -100px;
+ }
+ #nav_menu ul li a {
+    text-align: center;
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+    background-color: rgb(245, 57, 82);
+    color: white;
+    font-weight: bold;
+ }
+ #nav_menu ul li a.lastitem {
+    border-right: none;
+ }
+ #nav_menu ul li a.current {
+    color: rgb(118, 149, 250);
+ }
+ #nav_menu ul li a:hover, #nav_menu ul li a:focus {
+    background-color: rgb(243, 145, 161);
+ }
+ 
+ /* Header */
+ header {
+    border-bottom: 5px solid #392613;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+ }
+ /* Main */
+ main{
+   margin: 3em;
+ }
+ /* Footer */
+ footer {
+    text-align: center;
+    border-top: 5px solid #391316;
+ }
+ 
+ 
+ 
